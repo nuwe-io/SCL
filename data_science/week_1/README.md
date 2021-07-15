@@ -2,7 +2,7 @@
 
 For this challenge two datasets are provided, the dataset for training the predictive algorithm and the dataset for testing the predictive algorithm.
 
-Each row of the dataset represents features of the trades done in periods of 5 minutes. 
+Each row of the dataset represents features of the trades done in periods of 5 minutes. The train + test dataset contains information from 63 days.
 
 # train.csv
 Shape (12701 rows, 11 columns)
@@ -14,7 +14,7 @@ Shape (12701 rows, 11 columns)
 ### Predictors
 First 10 columns
 
-* **Open_time** -> Time in which the candle starts.
+* **Open_time** -> Time in which the candle starts. ('%Y-%m-%d %H:%M:%S')
 * **Open** -> Open price of the candle, (price of the asset at the beggining of the 5 minutes)
 * **High** -> Higher price of the asset in the 5 minutes period
 * **Low** -> Lower price of the asset in the 5 minutes period
