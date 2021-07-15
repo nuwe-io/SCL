@@ -19,6 +19,9 @@ First 10 columns
 * **High** -> Higher price of the asset in the 5 minutes period
 * **Low** -> Lower price of the asset in the 5 minutes period
 * **Close** -> Close price of the candle (price of the asset at the end of the 5 minutes)
+
+![](https://github.com/nuwe-io/SCL/blob/main/data_science/week_1/images/candle.png)
+
 * **Volume** -> 
 * **QV** -
 * **NOT**
@@ -30,12 +33,16 @@ First 10 columns
 ### Target
 Column 11 -> target to predict 
 
+This column shows 3 values that goes from 0 to 2. Where each of these values corresponds to one order. These orders can be later be executed by a bot.
 
-* **target**
-
+| Value | Order |
+|:-----:|:-----:|
+|   0   |  Wait |
+|   1   |  Buy  |
+|   2   |  Sell |
 
 
 # test_predictors.csv
 Shape (5443 rows, 10 columns)
 
-Contains the predictors to test the accuracy of your predictive algorithm.
+Contains the same predictors as in the train set to test the accuracy of your predictive algorithm.
