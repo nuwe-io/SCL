@@ -5,7 +5,7 @@ For this challenge two datasets are provided, the dataset for training the predi
 Each row of the dataset represents features of the trades done in periods of 5 minutes. The train + test dataset contains information of the pair ADA/USDT of 63 days.
 
 # train.csv
-Shape (12701 rows, 11 columns)
+*Shape (12701 rows, 11 columns)*
 
 | Open_time           | Open   | High   | Low    | Close  | Volume     | QV           | NOT  | TBB        | TBQ          | Volatility | target |
 |---------------------|--------|--------|--------|--------|------------|--------------|------|------------|--------------|------------|--------|
@@ -22,18 +22,18 @@ First 10 columns
 
 ![](https://github.com/nuwe-io/SCL/blob/main/data_science/week_1/images/candle.png)
 
-* **Volume** -> 
-* **QV** -
-* **NOT**
-* **TBB**
-* **TBQ**
-* **Volatility** -> Is the relative change between the close price and the open price of each timeframe
+* **Volume** -> Amount of cryptocurrecies transactionated in the 5 minutes timeframe
+* **QV** -> Quote asset Volume, amount of USD transactionated in the 5 minutes timeframe
+* **NOT** -> Number Of Trades, this mean the total number of transactions done in the 5 minutes timeframe
+* **TBB** -> (Taker Buy Base) Amount of crypto bought directly with a market order
+* **TBQ** -> (Taker Buy Quote) Amount of USDT bought directly with a maket order
+* **Volatility** -> Is the relative change between the close price and the open price of each timeframe [%] 
 
 
 ### Target
 Column 11 -> target to predict 
 
-This column shows 3 values that goes from 0 to 2. Where each of these values corresponds to one order. These orders can be later be executed by a bot.
+This column shows 3 values that goes from 0 to 2. Where each of these values corresponds to one order. These orders can be later be executed by a bot
 
 | Value | Order |
 |:-----:|:-----:|
@@ -43,6 +43,6 @@ This column shows 3 values that goes from 0 to 2. Where each of these values cor
 
 
 # test_predictors.csv
-Shape (5443 rows, 10 columns)
+*Shape (5443 rows, 10 columns)*
 
-Contains the same predictors as in the train set to test the accuracy of your predictive algorithm.
+Contains the same predictors as in the train set to test the accuracy of your predictive algorithm
