@@ -1,1 +1,41 @@
 ## DATA SCIENCE CHALLENGE SCL WEEK 1 
+
+For this challenge two datasets are provided, the dataset for training the predictive algorithm and the dataset for testing the predictive algorithm.
+
+Each row of the dataset represents features of the trades done in periods of 5 minutes. 
+
+# train.csv
+Shape (12701 rows, 11 columns)
+
+| Open_time           | Open   | High   | Low    | Close  | Volume     | QV           | NOT  | TBB        | TBQ          | Volatility | target |
+|---------------------|--------|--------|--------|--------|------------|--------------|------|------------|--------------|------------|--------|
+| 2021-05-13 09:00:00 | 1.6625 | 1.6800 | 1.6623 | 1.6737 | 2878032.99 | 4.821304e+06 | 5125 | 1702161.28 | 2.851617e+06 | 0.673684   | 0      |
+
+### Predictors
+First 10 columns
+
+* **Open_time** -> Time in which the candle starts.
+* **Open** -> Open price of the candle, (price of the asset at the beggining of the 5 minutes)
+* **High** -> Higher price of the asset in the 5 minutes period
+* **Low** -> Lower price of the asset in the 5 minutes period
+* **Close** -> Close price of the candle (price of the asset at the end of the 5 minutes)
+* **Volume** -> 
+* **QV** -
+* **NOT**
+* **TBB**
+* **TBQ**
+* **Volatility** -> Is the relative change between the close price and the open price of each timeframe
+
+
+### Target
+Column 11 -> target to predict 
+
+
+* **target**
+
+
+
+# test_predictors.csv
+Shape (5443 rows, 10 columns)
+
+Contains the predictors to test the accuracy of your predictive algorithm.
