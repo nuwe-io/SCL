@@ -2,7 +2,7 @@
 
 For this challenge two datasets are provided, the dataset for training the predictive algorithm and the dataset for testing the predictive algorithm.
 
-Each row of the dataset represents features of the trades done in periods of 5 minutes. The train + test dataset contains information from 63 days.
+Each row of the dataset represents features of the trades done in periods of 5 minutes. The train + test dataset contains information of the pair ADA/USDT of 63 days.
 
 # train.csv
 Shape (12701 rows, 11 columns)
