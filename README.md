@@ -1,1 +1,1 @@
-# WELCOME TO THE [NUWE](https://nuwe.io/app) SUMMER CODING LEAGUE
+# WELCOME TO THE [NUWE](https://nuwe.io/app) SUMMER CODING LEAGUE!
