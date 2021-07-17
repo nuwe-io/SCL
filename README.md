@@ -1,1 +1,1 @@
-"# SCL" 
+# WELCOME TO THE [NUWE](https://nuwe.io/app) SUMMER CODING LEAGUE
