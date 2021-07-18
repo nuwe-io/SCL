@@ -15,7 +15,7 @@ Create a predictive algorithm (Machine Learning or Deep Learning) to predict the
 
 For this challenge two [datasets](https://github.com/nuwe-io/SCL/tree/main/data_science/week_1) are provided, the dataset for training the predictive algorithm and the dataset for testing the predictive algorithm.
 
-Each row of the dataset represents features of the trades done in periods of 5 minutes. The train + test dataset contains information of the pair ADA/USDT of 63 days.
+Each row of the dataset represents features of the trades done in periods of 5 minutes. The train + test dataset contains information of the pair ADA/USDT of 63 days obtained by using the Binance API.
 
 ## train.csv
 *Shape (12701 rows, 11 columns)*
