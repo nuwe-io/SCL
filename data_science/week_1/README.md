@@ -11,7 +11,7 @@
 Create a predictive algorithm (Machine Learning or Deep Learning) to predict the correct time to buy cardano and the correct time to sell, these are defined by the 'target' column of the 'train.csv' dataset. Once the predictive algorithm is done, it has to be used with the testing predictors dataset. 
 
 --- 
-# DATASETS
+# DATASET
 
 For this challenge two [datasets](https://github.com/nuwe-io/SCL/tree/main/data_science/week_1) are provided, the dataset for training the predictive algorithm and the dataset for testing the predictive algorithm.
 
