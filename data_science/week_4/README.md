@@ -7,7 +7,7 @@ The dataset has been collected and analysed during a research collaboration of W
 
 # TASK
 
-Create a predictive algorithm (Machine Learning, NOT ANN) to predict if a transaction is fraud (class 1) or not (class 2)
+Create a predictive algorithm (Machine Learning, NOT ANN) to predict if a transaction is fraud (class 1) or not (class 2).
 --- 
 # DATASETS
 
